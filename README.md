@@ -1,13 +1,6 @@
 # Self-Pruning Neural Network  
 **Tredence AI Engineering Intern – Case Study Submission**
 
----
-
-## Pitch Deck
-
-Not applicable – code‑only submission. Results, plots, and report are in this repository.
-
----
 
 ## The Problem
 
