@@ -105,7 +105,7 @@ Binarization term `g(1-g)` is maximal at 0.5 and zero at 0 or 1. Penalising it p
 ## Requirements
 torch>=2.0.0, torchvision>=0.15.0, matplotlib>=3.7.0, numpy>=1.24.0
 
-## Evaluation Criteria – How This Project Meets Them
+## Evaluation Criteria 
 
 - **PrunableLinear correctness:** Gradients flow to both weight and gate_scores; forward pass uses weight * gates. Verified by training and hard prune.
 - **Training loop with sparsity loss:** Total loss includes normalised dual‑term sparsity loss with warmup, ramp‑in, and temperature decay.
